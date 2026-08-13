@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mírate Guapa</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,6 +17,7 @@
     <nav>
         <a href="#inicio">Inicio</a>
         <a href="#productos">Productos</a>
+        <a href="#carrito">Carrito</a>
         <a href="#nosotros">Nosotros</a>
         <a href="#contacto">Contacto</a>
     </nav>
@@ -26,10 +26,10 @@
 
         <section id="inicio">
             <h2>Bienvenida a Mírate Guapa</h2>
-            <p>
-                Encuentra productos de belleza para cuidar y resaltar tu estilo.
-            </p>
-            <button>Ver productos</button>
+            <p>Encuentra productos de belleza para cuidar y resaltar tu estilo.</p>
+            <button onclick="document.getElementById('productos').scrollIntoView({behavior:'smooth'})">
+                Ver productos
+            </button>
         </section>
 
         <section id="productos">
@@ -105,6 +105,18 @@
                 <button>Agregar al carrito</button>
             </div>
 
+        </section>
+
+        <section id="carrito">
+            <h2>Mi carrito</h2>
+
+            <div id="lista-carrito">
+                <p>Tu carrito está vacío.</p>
+            </div>
+
+            <h3 id="total">Total: Q0</h3>
+
+            <button id="vaciar-carrito">Vaciar carrito</button>
         </section>
 
         <section id="nosotros">
