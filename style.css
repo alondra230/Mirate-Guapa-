@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff5f8;
+    color: #6b3a4a;
+}
+
+header {
+    background-color: #f8c8d8;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    color: #9b4d6b;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #7a4a59;
+    font-size: 18px;
+}
+
+nav {
+    background-color: #e8a5bd;
+    text-align: center;
+    padding: 18px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #ffe8ef;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+section {
+    max-width: 1000px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+section h2 {
+    color: #b65377;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+section p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: #d87598;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b65377;
+}
+
+#productos {
+    display: block;
+}
+
+#productos div {
+    background-color: white;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 15px;
+    max-width: 500px;
+    box-shadow: 0 4px 12px rgba(180, 100, 130, 0.15);
+}
+
+#productos h3 {
+    color: #c05b7e;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #f8c8d8;
+    text-align: center;
+    padding: 25px;
+    color: #7a4a59;
+}
